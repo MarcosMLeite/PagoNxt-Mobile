@@ -20,11 +20,11 @@ public class Screen {
         PageFactory.initElements(new AppiumFieldDecorator(driver, ofSeconds(10)), this);
     }
 
-    // Contato principal (lista de contatos)
+
     @AndroidFindBy(accessibility = "Contacts")
     public MobileElement cmpContato;
 
-    // Botão para criar novo contato
+
     @AndroidFindBy(id = "com.android.contacts:id/floating_action_button_container")
     public MobileElement cmpAddContato;
 
