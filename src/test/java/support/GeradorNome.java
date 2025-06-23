@@ -5,9 +5,6 @@ import java.util.InputMismatchException;
 
 public class GeradorNome {
 
-
-
-
         private static final String[] NOMES = {
                 "Marcos", "Ana", "Carlos", "Beatriz", "Lucas", "Julia", "Pedro", "Mariana", "João", "Fernanda"
         };

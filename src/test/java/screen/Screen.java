@@ -16,7 +16,7 @@ public class Screen {
     protected AppiumDriver<MobileElement> driver;
 
     public Screen() {
-        this.driver = PlataformaMobile.driver; // Usa o driver já inicializado
+        this.driver = PlataformaMobile.driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver, ofSeconds(10)), this);
     }
 
