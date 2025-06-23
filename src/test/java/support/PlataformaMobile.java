@@ -29,11 +29,10 @@ public class PlataformaMobile {
             capabilities.setCapability("deviceName", "emulator-5554");
             capabilities.setCapability("automationName", "UIAutomator2");
 
-            // Abre o app de contatos
+
             capabilities.setCapability("appPackage", "com.android.contacts");
             capabilities.setCapability("appActivity", ".activities.PeopleActivity");
 
-            // Permissões automáticas
             capabilities.setCapability("autoGrantPermissions", true);
 
             driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
